@@ -8,11 +8,11 @@
     font-size: 50px;
 }
 
-#getincontact:slid
+
 #getcontact{
     width: 100%;
     height: 250px;
-    color: white;
+    color: rgb(255, 237, 237);
     
     background-color: rgb(21, 21, 39);
     
@@ -55,6 +55,7 @@ p{  font-size: 20px;
 
 #call_icon{
     border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
 }
 
 a{
