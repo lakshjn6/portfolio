@@ -1,0 +1,64 @@
+
+#blog {
+    padding: 0;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #6b88b9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+   
+
+}
+
+.project-card {
+    width: 320px;
+    height: 360px;
+    padding: 20px;
+    text-align: center;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #8798b0;
+    
+    
+    
+}
+#image_tag{
+    height: 250px;
+    width: 320px;
+    
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+#project_image{
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    height:250px;
+    border: 2px solid rgb(7, 6, 6);
+    border-radius: 5px;
+    
+}
+
+
+#see_more:hover{
+    color: red;
+    cursor: pointer;
+}
+#prop_title{
+    margin: 0;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 30px;
+}
+#rating{
+    margin: 0;
+} 
+
+
