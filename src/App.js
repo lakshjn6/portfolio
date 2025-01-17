@@ -12,37 +12,44 @@ import { useEffect } from 'react';
 
 
 
+
 function App() {
   const projectsData = [
     {
       title: "Mask_Detection",
       views: "4.5",
       my_image: "https://5.imimg.com/data5/PI/FD/NK/SELLER-5866466/images-500x500.jpg",
+      link1:"https://github.com/lakshjn6/Mask_detector"
     },
     {
       title: "Email_Spam",
       views: "4.0",
       my_image: "https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/05/Untitled-46.png?fit=580%2C342&ssl=1",
+      link1:"https://github.com/lakshjn6/Email-spam"
     },
     {
       title: "Project_Protfolio",
       views: "4.1",
       my_image: "https://www.rankontechnologies.com/wp-content/uploads/2024/05/How-Website-is-Created-And-How-Does-It-Work-02.jpg",
+      link1:"https://portfolio-blond-nine-41.vercel.app/"
     },
     {
       title: "Churn Project",
       views: "4.2",
       my_image: "https://blog-static.userpilot.com/blog/wp-content/uploads/2024/05/What-is-a-Customer-Churn-Prediction-How-to-Set-It-Up.png",
+      link1:"https://github.com/lakshjn6/DS_churnproject.py"
     },
     {
       title: "Recommandation",
       views: "4.0",
       my_image: "https://media.licdn.com/dms/image/v2/D5622AQECIFL36L5eEg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727454228372?e=1739404800&v=beta&t=3rOUqyXG4_aqVVOjpIH2JxPMoNyUWha6-94XFVnDFRA",
+      link1:"#"
     },
     {
       title: "Pizza SQL Querys",
       views: "4.5",
       my_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKfzw3O3WMofolYQtFfKna2SjcpK-LRQu2Kg&s",
+      link1:"#"
     },
   ];
     
@@ -86,6 +93,8 @@ function App() {
             title={project.title}
             views={project.views}
             my_image={project.my_image}
+            link1={project.link1}
+
           />
         </motion.div>
       ))}

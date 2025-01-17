@@ -53,8 +53,8 @@ export default function Content(){
         }}>{skill}</h1>
     </motion.div>
     <div>
-        <button className="button_design">Know-More</button>
-        <button className="button_design">Resume</button>
+        <button className="button_design" ><a href='https://www.linkedin.com/in/lakshay-mittal-a4ab04311/' target="_blank" rel="noopener noreferrer">Know MORE</a></button>
+        <button className="button_design"><a href='\LAKSHAY MITTAL (12).pdf' target="_blank" rel="noopener noreferrer">Resume</a></button>
     </div>
     </div>
         
