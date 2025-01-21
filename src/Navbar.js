@@ -5,7 +5,7 @@ export default function Navbar(){
     return(
         
           <div id="nav_bar">
-            <div id="firm_name">સારથિ</div>
+            <div id="firm_name">Protfolio</div>
             <motion.div id="feature_navbar" initial={{ y: "-10vw" }}
                 animate={{ y: 0 }}       
                 transition={{ duration: 1, ease: "easeIn" }}>
