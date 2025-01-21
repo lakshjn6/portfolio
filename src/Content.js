@@ -40,16 +40,16 @@ export default function Content(){
         <h1 className="name" style={{
           transform: `translate(${-scrollPosition*2}px, -10%)`,
           transition: "transform 0.2s ease-out",
-        }} >Hello</h1>
+        }} >Hello!</h1>
         <br></br>
         <h1 className="name" style={{
-          transform: `translate(${-scrollPosition*2}px, -10%)`,
-          transition: "transform 0.2s ease-out",
-        }} >im Lakshay Mittal</h1>
+          transform: `translate(${-scrollPosition*1.5}px, -10%)`,
+          transition: "transform 0.2s ease-out",fontFamily:"Alice"
+        }} >I'm Lakshay Mittal✦,</h1>
         <br></br>
         <h1 className="name" id="skill" style={{
           transform: `translate(${-scrollPosition*2}px, -10%)`,
-          transition: "transform 0.2s ease-out",
+          transition: "transform 0.2s ease-out",fontFamily:"Alice"
         }}>{skill}</h1>
     </motion.div>
     <div>

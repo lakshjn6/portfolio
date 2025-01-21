@@ -60,7 +60,9 @@
   color:#ffffff;
   margin: 0;
   margin-left: 30px;
-  transition-duration: 2s;
+
+  transition: ease-out;
+  transition-duration: 2000;
   
 }
 
@@ -68,8 +70,9 @@
 
 .name:hover{
   color: #000000;
-  font-size: 80px;
+ 
   transform: translateX(100px);
+  
 }
 
 .button_design{
