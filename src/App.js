@@ -57,7 +57,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 500) {
+      if (window.scrollY > 1000) {
         setStartAnimation(true);
       }
     };
