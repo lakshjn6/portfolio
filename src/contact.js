@@ -39,7 +39,7 @@ export default function Contact(){
                 
                 
             </div>
-            <img src='\linz-transparent-layers-gradient-landmarks-skyline_145772-619.avif' alt="design Icon" id="design_icon"/>
+           
         </div>
     )
 }

@@ -9,8 +9,8 @@ import Contact from './contact';
 import {motion} from "framer-motion"
 import { useState } from 'react';
 import { useEffect } from 'react';
-
-
+import Skills from './skill';
+import Skillheading from './skillheading';
 
 
 function App() {
@@ -75,6 +75,8 @@ function App() {
 
 <Navbar id="my_navbar" />
 <Content/>
+<Skillheading/>
+<Skills/>
 <Heading/>
 
 <div id="blog">
