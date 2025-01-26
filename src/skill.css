@@ -17,7 +17,7 @@
     
 width: 45%;
 height: 400px;
-background-image: url("C:\Users\BIT\OneDrive\Desktop\React_JS\my_app\public\pexels-ip-creative-495856013-16149990.jpg");
+background-image: url(pexels-ip-creative-495856013-16149990.jpg);
 background-size: contain;
 display: flex;
 flex-direction: column;
